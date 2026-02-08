@@ -574,3 +574,7 @@ const FormField = ({ label, name, defaultValue, type = "text", placeholder, requ
 );
 
 export default App;
+- name: 'notify vercel'
+  uses: 'vercel/repository-dispatch/actions/status@v1'
+  with:
+    name: Vercel - bravoric: lint
